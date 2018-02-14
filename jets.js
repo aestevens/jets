@@ -11,4 +11,8 @@ var Jet = function (color, size) {
   };
 }
 
+this.engageSecondaryEngines  = function () {
+  console.log('Secondary Engines Engaged!');
+};
+
 module.exports = Jet;
